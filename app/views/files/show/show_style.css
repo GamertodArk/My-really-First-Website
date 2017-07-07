@@ -1,0 +1,150 @@
+.picture1 {
+	width: 100%;
+	height: 800px;
+	background-image: url(../../../../imagenes/picture4.jpg);
+	background-position: 50% 50%; 
+	background-size: cover;
+	/*position: relative;*/
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.picture1 h2 {
+	color: #fff;
+	font-size: 80px;
+	text-align: center;
+}
+
+.languages {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding: 20px;
+	background-color: #fff;
+	margin: 40px 0;
+}
+
+.languages .wrap img {
+	width: 90px;
+}
+
+.languages .wrap {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.languages .wrap div {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+.languages h3 {
+	text-align: center;
+	font-size:40px;
+}
+
+.languages .javascript {
+	margin: 40px 0;
+}
+
+.libraries {
+	width: 100%;
+	background-color: #fff;
+	padding: 20px;
+}
+
+.libraries .wrap {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: center;
+}
+
+.libraries .wrap img {
+	width: 200px;
+}
+
+.libraries .wrap .jquery {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.libraries .wrap h3 {
+	font-size: 30px;
+}
+
+
+.questions {
+	width: 100%;
+	padding: 20px;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	margin: 20px 0;
+}
+
+.questions div {
+	margin: 0 10px;
+	flex-grow: 1;
+}
+
+.questions div h4 {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.questions div p {
+	font-size: 17px;
+}
+
+/*mediaqueries*/
+@media screen and (max-width: 900px) {
+	.picture1 h2 {
+		font-size: 60px;
+	}
+
+	.languages h3 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.languages .wrap {
+		flex-direction: column;
+	}
+
+	.languages .wrap div {
+		margin: 30px 0;
+	}
+
+	.languages .wrap img {
+		width: 100px;
+	}
+
+	.questions {
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.questions div {
+		width: 300px;
+		margin: 30px 0;
+		text-align: center;
+	}
+}

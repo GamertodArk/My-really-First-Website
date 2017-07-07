@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+.firstPicture {
+	background-image: url(../../../../imagenes/firstPicture.jpg);
+	/*background-size: 1000px;*/
+	width: 100%;
+	height: 1032px;
+	/*color: #fff;*/
+
+	/*flex*/
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	/*align-items: center;*/
+	/*align-content: center;*/
+	text-align: center;
+	justify-content: center;
+
+}
+
+.firstPicture h2 {
+	font-size: 70px;
+	font-family: 'Dancing Script', cursive;
+	/*color: rgba(255,255,255, 0.75);*/
+	color: #fff;
+}
+
+.firstPicture p {
+	font-size: 30px;
+	color: #fff;
+}
+
+.ofrecimientos {
+	background: #424242;
+	color: #fff;
+	padding: 20px;
+	margin-top: 20px;
+
+	/*flex*/
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.ofrecimientos h2 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.ofrecimientos .logos {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.ofrecimientos .inf  {
+	width: 100px;
+	flex-grow: 1;
+	margin: 0 20px;
+	text-align: center;
+}
+
+.ofrecimientos .inf span i {
+	font-size: 70px;
+	margin-bottom: 0.5em;
+	color:#F7D358;
+}
+
+
+/*media queries*/
+@media screen and (max-width: 700px) {
+	.ofrecimientos .logos {
+		flex-direction: column;
+		align-content: center;
+	}
+
+	.ofrecimientos .logos .inf {
+		width: 70%;
+		margin: 2em 0;
+	}
+
+	.ofrecimientos .inf span i {
+		margin-bottom: 0;
+	}
+}
