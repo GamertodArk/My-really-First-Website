@@ -1,2 +1,2 @@
 # My-really-First-Website
-Okay, this is the repository of my really first web-site, i made one called "My-First-WebPage", but is only has two readme files, and i don't know how to change it, so i gonna make another one
+This is one of my firts websites that i biult, meybe is not one of the best but i wanted to share it, i'm begining in this world so i'd like that you tell me how i am doing, if my code need to inprove in something or i am doing it good, and thank you for reading my repository
